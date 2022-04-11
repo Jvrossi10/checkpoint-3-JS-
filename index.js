@@ -55,16 +55,6 @@ let Curso = {
         }
     },
 
-    arrayBooleano: function () {
-        var arrayBooleano = [];
-        for (let i = 0; i < this.listaEstudantes.length; i++) {
-           if (this.estudantesAprovados() == true) {
-                var listaBooleano = this.listaEstudantes[i].nome 
-                resultado.push(listaBooleano)
-                resultado,push(this.estudantesAprovados(this.listaEstudantes[i]))
-        }
-        return resultado;
-    }
 }
 
 //-----------passo4------------
@@ -85,6 +75,3 @@ console.log(Curso.estudantesAprovados(aluno1))
 console.log(Curso.estudantesAprovados(aluno2))
 
 
-//-----------passo6------------
-//Crie um método para o objeto curso que percorra a lista de estudantes e retorne um array de 
-//booleanos com os resultados se os alunos aprovaram ou não. 
